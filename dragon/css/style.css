@@ -1,0 +1,468 @@
+/*project name :dragon;
+1:navbar css;
+2:home ;
+3:about;
+4:service;
+5:work;
+*/
+body{
+font-family: 'Noto Sans', sans-serif;
+}
+/*navbar ccs*/
+.custom-nav-menu {
+padding: 20px 0px;
+width: 100%;
+border-radius: 0px;
+z-index: 999;
+margin-bottom: 0px;
+}
+.navbar-brand img{
+height: 25px;
+}
+.nav-link{
+color: #fff;
+padding: 10px 0px;
+margin: 0 9px;
+font-size: 14px;
+font-weight: 500;
+}
+.btn-sm {
+border-radius: 2em;
+padding: 8px 16px;
+font-size: 14px;
+color: #fff;
+background-color: #F24259;
+border: none;
+}
+.btn-sm:hover{
+background-color: #F24259;
+color: #fff;
+}
+.navbar-nav  li.active a {
+color: #F24259 !important;
+}
+.navbar-nav  li a:hover{
+color: #F24259 !important;
+}
+/*home css*/
+#home{
+background-image: url(../img/home-bg3.jpg);
+background-position: center center;
+background-size: cover;
+height: 100vh;
+width: 100%;
+position: relative;
+}
+.home-overlay{
+position: absolute;
+top: 0px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+background: rgba(31, 33, 37, 0.92);
+}
+.home-tale{
+width: 100%;
+height: 100%;
+display: table;
+}
+.home-table-center{
+display: table-cell;
+vertical-align: middle;
+}
+.pro-condition li{
+color: rgba(255, 255, 255, 0.62);
+font-size: 15px;
+}
+.header-title {
+font-size: 48px;
+line-height: 1.2;
+max-width: 750px;
+text-transform: capitalize;
+font-weight: 400px;
+}
+.header-subtittle{
+color: rgba(255, 255, 255, 0.62);
+font-size: 15px;
+max-width: 600px;
+margin: 0 auto;
+letter-spacing: 1px;
+line-height: 1.7;
+}
+.btn-custom {
+color: #fff;
+padding: 12px 28px;
+background-color: #F24259;
+font-size: 13px;
+letter-spacing: 1px;
+text-transform: capitalize;
+border-radius: 5px;
+}
+.btn-custom:hover {
+background-color: #d2374b;
+border-color: #d2374b;
+color: #fff;
+}
+/*about css*/
+.section{
+padding: 100px 0px;
+position: relative;
+}
+.section-title-border .f-border {
+width: 4px;
+display: inline-block;
+height: 3px;
+background-color: #000;
+}
+.section-title-border .s-border {
+width: 25px;
+display: inline-block;
+height: 3px;
+background-color: #000;
+}
+.section-title-border{
+display: inline-block;
+}
+.section-tittle{
+font-weight: bold;
+letter-spacing: 1px;
+font-family: 'Noto Sans', sans-serif;
+}
+.section-subtitle {
+max-width: 500px;
+font-size: 15px;
+line-height: 1.8;
+letter-spacing: 1px;
+font-family:'Noto Sans', sans-serif;
+}
+.section-subtitle1{
+max-width: 700px;
+font-size: 15px;
+line-height: 1.8;
+letter-spacing: 1px;
+font-family: 'Noto Sans', sans-serif;
+}
+.about-tittle{
+font-size: 26px;
+font-weight:bold;
+letter-spacing: 1px;
+}
+.about-box i{
+font-size: 30px;
+}
+.about-title {
+line-height: 1.4;
+font-size: 24px;
+}
+.about-subtittle{
+font-size: 15px;
+letter-spacing: 1px;
+font-family: 'Noto Sans', sans-serif;
+}
+.bg-cta-img{
+position: relative;
+background-image: url(../img/bg-cta-img.jpg);
+background-position: center center;
+background-size: cover;
+}
+.bg-overlay{
+background: rgba(31, 33, 37, 0.92);
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 100%;
+}
+.cta-desc{
+font-size: 15px;
+max-width: 700px;
+margin: 0 auto;
+line-height: 1.8;
+letter-spacing: 1px;
+}
+.btn-rounded{
+border-radius: 25px;
+}
+/*service css*/
+.services-icon i{
+font-size: 38px;
+height: 62px;
+width: 62px;
+border-radius: 8px;
+line-height: 62px;
+background-color: rgba(242, 66, 89, 0.06);
+color: #F24259 !important;
+}
+.service-text{
+font-size: 14px;
+letter-spacing: 1px;
+font-family: 'Noto Sans', sans-serif;
+}
+/*work css*/
+.work-box i{
+color: #fff;
+background-color: #f24259;
+font-size: 35px;
+width: 75px;
+height: 75px;
+line-height: 75px;
+border-radius: 50%;
+}
+.work-content h5{
+font-weight: 600;
+}
+.work-list li{
+display: inline-block;
+margin: 0px 10px;
+}
+.work-list li a {
+letter-spacing: 2px;
+padding: 6px 16px;
+border-radius: 5px;
+font-weight: 400;
+display: inline-block;
+cursor: pointer;
+margin-bottom: 5px;
+margin-top: 5px;
+transition: all 0.5s;
+font-size: 14px;
+color: #9a9a9a;
+text-decoration: none;
+}
+.work-list li a:hover{
+background-color: #f24259;
+color: #fff !important;
+}
+.work-list li .active {
+background-color: #f24259;
+color: #fff !important;
+}
+.work-video{
+background-image: url(../img/video.jpg);
+background-position: center center;
+background-size: cover;
+}
+.sec-subtitle{
+max-width: 600px;
+margin: 0px auto;
+font-family: 'Noto Sans', sans-serif;
+letter-spacing: 1px;
+}
+.play-area a i{
+outline: none !important;
+width: 65px;
+height: 65px;
+border-radius: 50%;
+background-color: #f24259;
+color: #fff;
+font-size: 25px;
+line-height: 65px;
+text-align: center;
+}
+.video-presentation-play{
+border: 3px solid #f24259;
+display: inline-block;
+border-radius: 50%;
+padding: 7px;
+}
+.play-area a i:hover{
+background-color:#fff;
+color: #f24259;
+}
+.features-heading{
+letter-spacing: 2px;
+font-weight: 600;
+}
+.features-sub-title{
+font-family: 'Noto Sans', sans-serif;
+font-size: 15px;
+line-height: 1.6;
+}
+/*work description css*/
+.features-icon{
+float: left;
+font-size: 18px;
+width: 26px;
+text-align: center;
+height: 26px;
+border-radius: 50%;
+transform: translateY(-50%);
+background: #f24259;
+color: #fff;
+line-height: 26px;
+position: relative;
+top: 14px;
+}
+.features-title{
+font-size: 20px;
+position: relative;
+font-family: 'Noto Sans', sans-serif;
+font-weight: 600;
+margin-left: 15px;
+}
+.features{
+position: relative;
+}
+/*pricing css*/
+.pricing-text{
+font-size: 60px;
+color: #F24259 !important;
+}
+.box-tittle{
+font-size: 22px;
+letter-spacing: 1px;
+}
+.pricing-button .btn-custom{
+box-shadow: 0px 8px 40px -2px  #f24259;
+}
+.pricing-box1{
+background-color: #fff;
+border-top: 3px solid #F24259;
+box-shadow: 0 0 40px -2px rgba(0, 0, 0, 0.1);
+}
+/*funfact css*/
+.fun-name {
+color: rgba(255, 255, 255, 0.7);
+letter-spacing: 1px;
+}
+.bg-funfacts{
+background-image: url(../img/bg-funfacts.jpg);
+background-position:center center;
+background-size: cover;
+}
+.fun-value{
+letter-spacing: 2px;
+}
+.funfact{
+border: 1px dashed rgba(255, 255, 255, 0.15);
+}
+/*team css*/
+.social-icon li a i {
+border: 1px solid #e8e7e7;
+color: rgba(0, 0, 0, 0.41);
+height: 36px;
+width: 36px;
+display: inline-block;
+line-height: 36px;
+border-radius: 50%;
+transition: all 0.5s;
+text-align: center;
+}
+.social-icon li a i:hover{
+background: #f24259;
+color: #fff;
+}
+.team-box{
+background-color: #fff;
+box-shadow: rgba(1,1,1, 0.7) #fff;
+}
+.team-desc{
+font-family: 'Noto Sans', sans-serif;
+font-size: 15px;
+line-height: 1.6;
+}
+/*clint css*/
+#clint{
+background-image: url(../img/bg-testi.jpg);
+background-attachment: fixed;
+background-size: cover;
+background-position: center center;
+}
+.clint-box{
+background-color: #fff;
+padding: 30px 20px;
+margin: 0px 10px;
+position: relative;
+overflow: hidden;
+border-radius: 15px !important;
+}
+.clint-img img{
+max-width: 70px;
+}
+.client-review {
+font-size: 17px;
+letter-spacing: 1.5px;
+}
+.logo-img img{
+opacity: 0.6;
+}
+.blog-detail{
+position: relative;
+top: -30px;
+}
+.blog-detail-badge {
+padding: 5px 15px;
+display: inline-block;
+position: relative;
+font-size: 12px;
+background: #f24259;
+color: #ffffff;
+border-radius: 30px;
+letter-spacing: 2px;
+top: -30px;
+}
+.blog-detail p{
+letter-spacing: 1px;
+font-size: 15px !important;
+line-height: 1.6;
+}
+.text-custom{
+color: #F24259 !important;
+margin-left: 5px;
+}
+.blog-detail{
+background-color: #fff;
+box-shadow: rgba(0, 0,0,0.6)#fff;
+}
+.blog-detail-devider{
+height: 1px;
+width: 100%;
+background-color: #e8e8e8;
+}
+.contact-detail i{
+color: #F24259 !important;
+text-transform: none;
+line-height: 1;
+display: inline-block;
+speak: none;
+font-size: 30px;
+}
+.contact-detail p{
+font-size: 15px;
+line-height: 1.6;
+}
+/*footer section css*/
+.footer{
+background-color: #222527;
+padding: 50px 0px;
+}
+.footer-border{
+background-color: rgba(255, 255, 255, 0.22);
+height: 2px;
+width: 26px;
+}
+.footer-text{
+color:rgba(255, 255, 255, 0.44);
+font-size: 15px;
+}
+.list-inline li i{
+width: 40px;
+height: 40px;
+line-height: 40px;
+text-align: center;
+background-color: rgba(255,255,255,0.05);
+border-radius: 50%;
+color: rgba(255,255, 255, 0.42);
+font-size: 20px;
+}
+.list{
+    list-style-type: none;
+    padding: 0px;
+}
+.list li{
+color:rgba(255, 255, 255, 0.44);
+line-height: 40px;
+
+}

@@ -1,0 +1,293 @@
+/*project Name-decor
+1.navbar
+2.header
+3.about;
+*/
+/*navbar css*/
+.navbar{
+width: 100%;
+position: absolute;
+left: 0px;
+top: 0px;
+padding: 15px 0px;
+z-index: 99;
+display: flex;
+align-items: center;
+height:90px;
+border-bottom: 1px solid rgba(255, 255, 255, 0.15)
+}
+.navbar-brand img{
+height: 22px;
+display: block;
+}
+.navbar-toggler {
+padding: .25rem .75rem;
+font-size: 1.25rem;
+line-height: 1;
+background-color: transparent;
+border: 1px solid transparent;
+border-radius: .25rem;
+}
+.custom-nav-menu .navbar-nav li a{
+color: #fff;
+background-color: transparent;
+padding: 15px 0px;
+font-weight: 500;
+margin: 0 10px;
+text-transform:uppercase;
+font-size: 14px;
+}
+/*header section css*/
+.header{
+position: relative;
+background-image: url(../img/bg.jpg);
+background-position: center center;
+height: 100vh;
+background-size: cover;
+}
+.home-overlay{
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+background-color: rgba( 1,0,45,0.5)
+}
+.home-table{
+width: 100%;
+height: 100%;
+display: table;
+}
+.home-table-center{
+display: table-cell;
+vertical-align:middle;
+}
+.header-caption h3{
+position: relative;
+font-size: 28px;
+color:#eeeeeec2;
+font-weight: 200px;
+letter-spacing: 3px;
+margin:0px;
+}
+.header-caption h3:before{
+background: #F24259;
+content: "";
+height: 1px;
+left: -30px;
+position: absolute;
+top: 50%;
+width: 20px;
+}
+.header-caption h1{
+margin: 10px 0;
+font-size: 50px;
+font-weight: 500;
+text-transform: uppercase;
+animation-delay: 1s;
+color: white;
+letter-spacing: 1px;
+font-weight:500;
+}
+.is-visible{
+color:#F24259;
+}
+.header-caption p{
+letter-spacing: 1px;
+}
+.header-caption .btn{
+animation-delay: 1.2s;
+display: inline-block;
+font-size: 14px;
+min-width: 160px;
+padding: 12px 20px;
+background: #222;
+border: 2px solid #fff;
+color: #fff;
+letter-spacing: .5px;
+border-radius: 0;
+text-transform: uppercase;
+width: auto;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+}
+.header-caption .btn:hover{
+background-color:#F24259;
+color: #fff;
+border: none;
+}
+.section{
+position: relative;
+padding: 100px 0px;
+}
+/*about section css*/
+.alt-font{
+letter-spacing: 1px;
+color: #ff214f;
+font-size: 15px;
+}
+.about-conent h5 span{
+font-family: 'Montserrat', sans-serif;
+color: #232323;
+font-size: 26px;
+line-height: 30px;
+font-weight: 600;
+letter-spacing: 1px;
+}
+.about-conent h5{
+font-family: 'Montserrat', sans-serif;
+font-size: 24px;
+letter-spacing: 2px;
+color: #6f6f6f;
+font-weight: 400;
+line-height: 30px;
+}
+.border{
+width: 60px;
+height: 2px;
+background-color: #ff214f !important;
+border: none !important;
+margin:0 auto;
+color: #ff214f;
+}
+.display-table-cell{
+display: table-cell !important;
+}
+.about-content{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.display-block {
+letter-spacing: 1px;
+font-weight: 400;
+font-size: 24px;
+}
+.about-content i{
+font-size: 26px;
+}
+.block-conent p{
+letter-spacing: 1px;
+}
+.accordion {
+background-color: #eee;
+color: #444;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+text-align: left;
+border: none;
+outline: none;
+transition: 0.4s;
+}
+.active, .accordion:hover {
+background-color: #ccc;
+}
+.panel {
+padding: 0 18px;
+background-color: white;
+display: none;
+overflow: hidden;
+}
+.solo-box{
+background-color: #000;
+padding: 80px 50px;
+margin: 0px;
+}
+.solo-box i{
+color: #ff214f;
+font-size: 28px;
+line-height: 34px;
+}
+.solo-text{
+font-size: 28px;
+color: #ffffff;
+}
+.pic-box{
+background-image: url(../img/agency-skill.jpg);
+position: relative;
+background-position: center center;
+visibility: visible;
+background-color: black;
+}
+.opacity-extra-medium{
+position: absolute;
+height: 100%;
+width: 100%;
+opacity: 0.7;
+top: 0;
+left: 0;
+}
+.inner-border {
+border: 8px solid rgba(255,255,255,0.35);
+height: calc(100% - 40px);
+width: calc(100% - 40px);
+left: 20%;
+top: 20%;
+position: absolute;
+}
+.process{
+padding: 80px 50px;
+}
+.process-title {
+color: #6f6f6f;
+letter-spacing: 2px;
+font-size: 16px;
+line-height: 24px;
+text-transform: uppercase;
+font-weight: 500;
+}
+.skills-progress{
+    width: 100%;
+    height: 5px;
+    background: #eee;
+    border-radius: 5px;
+    position: relative;
+}
+.skills-progress span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #F24259;
+    width: 10%;
+    border-radius: 10px;
+}
+#services{
+	padding:100px 0px; 
+
+
+
+}
+.services-box{
+	border: 1px solid grey;
+	padding: 30px;
+}
+.servises-icon{
+	font-size: 48px;
+	color:grey;
+}
+.services-text {
+	color: grey;
+}
+.servises-para{
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 1px; 
+}
+
+.services-box:hover {
+    box-shadow: 0 25px 30px 0 rgba(0,0,0,0.15);
+    border: 2px solid transparent !important;
+}
+.services-box {
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+}
+
+   .numbers{
+     padding: 60px 0px;
+     background-color: #f7f7f7;
+    }
