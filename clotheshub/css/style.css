@@ -1,0 +1,455 @@
+/*project name- clotheshub
+
+
+1.header
+2.:home;
+3:categories;
+4:mencollection;
+5:divider;
+
+*/
+
+/*top bar css*/
+.top-bar{
+    background: #222;
+    color: #bbb;
+    font-size: 14px;
+    padding: 15px 16px;
+    font-weight: 300;
+
+}
+.top-bar ul i{
+	margin-right: 7px;
+}
+.top-bar ul li {
+    padding: 0 15px;
+    border-right: 1px solid #555;
+    margin-right: 0!important;
+}
+.top-bar img {
+    margin-right: 5px;
+    width: 20px;
+    vertical-align: middle;
+    border: none;
+ }
+ .top-bar .drop-down{
+ 	padding: 0px 15px;
+ }
+ .top-bar .drop-down::after{
+ 	border: none !important;
+    content: '\f107';
+    font-family:'FontAwesome';
+
+ }
+ .top-bar .drop-down a{
+ 	color: #bbb;
+ 	text-decoration: none;
+ 	font-size: 14px;
+ 	 font-weight: 300;
+	
+ }
+ .dropdown{
+ 	margin-left:20px;
+ 	padding: 0px 15px;
+ }
+ .dropdown a{
+ 	text-decoration: none;
+    color: #bbb;
+    font-size: 14px;
+    font-weight: 300;
+
+ }
+ .dropdown a:hover{
+ 	color: #bbb;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+
+ }
+ /*nav css*/
+ .navbar-brand{
+ 	padding: 0 15px;
+ }
+ .navbar{
+ padding: 0px 0px;
+width: 100%;
+border-radius: 0px;
+z-index: 999;
+margin-bottom: 0px;
+ }
+ .navbar-nav{
+ 	padding: 0px 15px;
+ }
+ .navbar .nav-item {
+font-size: 15px;
+font-weight: 500;
+letter-spacing: 1px;
+text-transform: uppercase;
+cursor: pointer;
+padding: 15px 0px;
+}
+.navbar .nav-item a{
+background-color: transparent;
+margin: 0 10px;
+color: #333;
+ font-weight: 500;
+ text-transform: uppercase;
+}
+/*font-size: 15px;
+background-color: transparent;
+margin {
+: 0 10px;
+color: #333;
+ font-weight: 500;
+ text-transform: uppercase;
+}*/
+.right-col .search{
+color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.right-col .user-link{
+color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+.right-col .shopping-card a{
+     color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+    cursor: pointer;
+    }
+/*home css*/
+#home .item{
+	background-position: center;
+	padding: 150px 0px;
+	display: flex;
+	align-items: center;
+	background-size: cover;
+}
+#home .item h1{
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+    font-size: 50px;
+    color: inherit;
+    font-weight: 800;
+}
+.btn{
+	font-weight: normal;
+    border: 1px solid transparent;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+ #home .btn-tamplate{
+	background-color: #379392;
+	border-radius: 50px;
+	color: #fff;
+	padding: 10px 50px;
+
+}
+
+.fa-bag:before {
+    content: "\f06b";
+    font-family: fontAwesome;
+    padding-left: 20px;
+}
+#home .owl-carousel .owl-nav button.owl-prev{
+	width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #fff;
+    color: #555 !important;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    background: #fff !important;
+    padding: 0;
+    font-size: 30px !important;
+    margin: 0;
+}
+
+
+#home .owl-carousel .owl-nav button.owl-next{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #fff;
+    color: #555 !important;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    background: #fff !important;
+    padding: 0;
+    font-size: 30px !important;
+    margin: 0;
+}
+/*start categories css*/
+.section{
+	padding: 100px 0px;
+
+}
+.section-head h2 small {
+    display: block;
+    color: #999;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: "Poppins",sans-serif;
+}
+.section-head h2{
+    font-family: "Poppins",sans-serif;
+    font-weight: 800;
+    line-height: 1.1;
+    color: inherit;
+}
+
+#categories .item {
+    min-height: 200px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    background-position:right top !important;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+ .content h3{
+	font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #323232;
+    margin-bottom: 0px;
+    font-size: 18px;
+
+}
+#categories a{
+	text-decoration: none;
+}
+#categories .content span{ 
+    color: #656565;
+    font-weight: 300;
+    display: block;
+}
+
+
+/*men collection css*/
+#men-collection{
+	background-color: ;
+}
+#men-collection .item .title{
+	padding: 15px 0px;
+}
+ #men-collection .item .title h3{
+
+   font-family: "Poppins",sans-serif;
+    font-weight: 800;
+    line-height: 1.1;
+    color: inherit;
+    color: #323232;
+    margin-bottom: 0px;
+
+}
+#men-collection .item .title a{
+	text-decoration: none;
+
+}
+/*divider css*/
+#divider{
+	background-size: cover;
+}
+#divider .divider-detail p {
+    font-size: 2em;
+    font-weight: 300;
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+    line-height: 1.5;
+}
+#divider .divider-detail h2{
+
+font-size: 50px;
+font-family: "Poppins",sans-serif;
+    font-weight: 800;
+    line-height: 1.1;
+    color: inherit;
+}
+.btn{
+	font-weight: normal;
+    border: 1px solid transparent;
+    padding: .5rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+ #divider .btn-tamplate{
+	background-color: #379392;
+	border-radius: 50px;
+	color: #fff;
+	padding: 10px 50px;
+
+}
+.product .image {
+    position: relative;
+   background: #f5f5f5;
+    padding: 20px;
+    height: 200px;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+}
+.product .image img{
+	vertical-align: middle;
+    border-style: none;
+    width: 200px;
+    height: 180px;
+
+}
+#women-collection .item .title{
+	padding: 15px 0px;
+}
+ #women-collection .item .title h3{
+
+   font-family: "Poppins",sans-serif;
+    font-weight: 800;
+    line-height: 1.1;
+    color: inherit;
+    color: #323232;
+    margin-bottom: 0px;
+
+}
+#women-collection .item .title a{
+	text-decoration: none;
+
+}
+/*blog css*/
+.post {
+   background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex:column;
+
+}
+.post .thumbnail {
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 320px;
+    height: 320px;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+
+}
+.post .thumbnail img {
+    height: 100%;
+    margin-left: -100px;
+}
+.post .info{
+	padding: 20px;
+	box-sizing: border-box;
+}
+.post .info h4{
+	margin-bottom: 0;
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+}
+.post .info h4 a {
+    color: #333;
+    text-decoration: none;
+}
+.post .info span {
+    color: #656565;
+    font-size: 14px;
+    font-weight: 300;
+}
+.post .info p{
+    margin: 20px 0px;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.5;
+
+}
+.read-more {
+    color: #379392;
+    text-decoration: none;
+} 
+.post .info a{
+	text-decoration: none;
+	color: #379392;
+} 
+/*brand css*/
+.brand-img{
+	width: 100px;
+}
+/*footer css*/
+
+#footer .footer-head{
+background: #0e0e0e;   
+ color: #fff;
+    padding: 50px 0;
+}
+#footer .footer-head .icon i{
+	margin-right: 20px;
+    font-size: 2em;
+    transition: all 0.3s;
+
+}
+#footer .footer-head .icon
+.font-coin:before {
+    content: "\f140";
+    font-family: fontAwesome;
+}
+#footer-widget{
+   background: #111;
+    padding: 100px 0;
+    color: #999;
+}
+#footer-widget p{
+	line-height: 1.8;
+	font-size: 14px;
+	margin-top: 20px;
+}
+#footer-widget h5{
+    font-weight: 700;
+    margin: 11px 0px
+
+}
+#footer-widget ul li a{
+	text-decoration: none;
+		font-size: 14px;
+		color: #999;
+
+}
+ #footer-widget #newsletter-form input{
+  background: none;
+    padding: 7px 15px;
+    border: 1px solid #999;
+    outline: none;
+    width: 100%;
+    color: #fff;
+}
+
+ #footer-widget #newsletter-form button{
+ 	position: absolute;
+    padding: 7px 15px;
+    border: 1px solid #999;
+    outline: none;
+    background: none;
+    color: #999;
+    right: 15px;
+ }
+ .footer-bottom{
+ 	background: #0e0e0e;
+    color: #888;
+    padding: 30px 0;
+    font-size: 14px;
+ }
+ .payment-list img{
+ 	width: 35px;
+ }
